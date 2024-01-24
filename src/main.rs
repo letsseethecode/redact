@@ -43,6 +43,7 @@ fn redact(line: &str, patterns: &Vec<Regex>, mask: &String) -> String {
                 result += mask;
                 index = cap.end();
             }
+            result += &line[index..];
             return result;
         }
     }

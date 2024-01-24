@@ -1,0 +1,6 @@
+{
+    "UserId": "xx",
+    "Account": "xxx",
+    "Arn": "arn:aws:iam::xxx:user/lstc"
+}
+
